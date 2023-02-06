@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+.block {
+    border: 30px solid #C4C4C4;
+    background-color: #E6E6E6;
+}
+
+.block1{
+    width: 150px;
+    height: 150px;
+    padding: 15px;
+    font-size: 100px;
+    background-color: #FC8F8F;
+    display: inline-block;
+
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+.relative {
+    position: relative;
+}
+
+.absolute {
+    width: 90px;
+    height: 90px;
+    font-size: 50px;
+    position: absolute;
+    top: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+.second {
+    right: 300px;
+}
+
+.third {
+    right: 200px;
+}
+
+.fourth {
+    right: 100px;
+}
+
+.fifth {
+    right: 0;
+}
+
+.left2 {
+    position: absolute;
+    left: 165px;
+}
+
+.right1{
+    position: absolute;
+    right: 165px;    
+}
+
